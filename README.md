@@ -41,4 +41,31 @@ Fidéliser ses utilisateurs ! Pour cela il détermine en permanence les résulta
 Il y a donc deux **niveau** d'optimisation:
 * "on-site": optimisation directement sur le site.
 * "off-site": optimisation en dehors du site (popularité par exmeple).
- 
+
+### Optimisation Technique 
+Pour être correctement analysé par les robots, il y a un certain nombre de bonne pratiques à recpecter:
+* ✅ `https` le site doit être en HTTPS
+* ✅ `Responsive` le site doit être responsive
+* ✅ `Code source propre + épuré`. (W3C)
+* ✅ Fichier `robots.txt`, donne les consignes aux robots pour qu'il visitent certaines partie du site (et d'autres non).
+* ✅ `Sitemap XML` cartographie de l'ensemble des pages du site que l'on souhaite indéxer. (Pratique pour faire découvrir les différentes urls).
+* ✅ Optimisation de la `vitesse de chargement`. Un site lent sera long à indexer et aura donc moins de contenu indéxé (crédit d'indexation aloué par site). De plus il peut perdre des places à cause de sa lenteur.
+* ✅ Bien `structurer` son site pour regrouper les contenus par thématiques.
+* ✅ Certaines langages sont moins propice au référencement car il ne sont pas "lisible" par les moteurs de recherche. L'AJAX ou le Flash en sont des exmples. Il faut mettre en place un système permettant de renvoyer du html et non générer la page grâce à l'éxécution du code.
+* ✅ `Menus en Javascript`, sont difficilement lisible pour les moteurs de recherche et certains liens peuvent passer à travers et donc être non lu.
+* ✅ `Contenus Optimisé`, c'est le carburant du référencement naturel. Il faut de bon contenu et régulièrement.
+* ✅ `Contenu unique, pertinent, structuré, long` et sans fautes.
+* ✅ `Balise title` de la page bien renseignée
+* ✅ `Meta description` de la page doit être bien renseignée, c'est celle qui s'affiche dans les résultats de recherches.
+* ✅ Les attribtus `alt` des images.
+* ✅ Les `liens internes` entre les pages doivent avoir un lien sémantique (même thématique).
+* ✅ La `popularité` du site. Plus il y a de liens (liens provenant de site de confiance), plus votre site est important, mieux il est référencé.
+    * Site de qualité proche de notre thématique.
+    * Lien doit être `follow` si on souhaite que Google Robot le suivent et `nofollow` dans le cas contraire.
+    * Il faut mieux avoir 3 liens de domaine différents que 10 lien d'un même domaine.
+    * Les liens doivent être à l'intérieur d'un contenu. Eviter les pages de liens (page partenaires sans contenu).
+* ✅ Référencement local (restaurant != restaurant Nantes). La localité gagne en importance.
+* ❌ Pas de contenu dupliqué !
+* ❌ Pas de blocs identique sur différentes pages du site (duplicate).
+
+ARRet Google My Buisness ICI https://www.seomix.fr/referencement-naturel-definition/
